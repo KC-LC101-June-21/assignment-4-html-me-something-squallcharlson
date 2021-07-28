@@ -1,1 +1,56 @@
-/* Write your CSS here! */
+body, p {
+    text-align:center; 
+	margin: 8px;
+	display: block;
+}
+
+header {
+	padding: 1.875em 0;
+}
+
+#mainHeading {
+	color: red;
+}
+
+footer {
+    text-align:center;
+}
+
+nav ul {
+	text-align: center;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 1em;
+	font-size: 0.75em;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	text-decoration-line: underline;
+}
+
+h1 {
+    font-size:100px;
+}
+
+h2 {
+    font-size:25px;
+}
+
+.funParagraph {
+	color: green;
+}
+
+@media screen and (max-width: 680px) {
+	nav ul li {
+		margin: 1em 0;
+		display: block;
+		font-size: 1em;
+	}
+	body {
+		font-size: 50%;
+	}
+}
